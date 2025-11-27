@@ -23,6 +23,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
         "Amasia Ekounou",
         "meilleure école Yaoundé",
       ],
+      icons: {
+        icon: "/favicon.ico",
+      },
       openGraph: {
         title: "Amasia - Excellence Bilingue Depuis 1994",
         description: "Éducation de qualité en français et anglais à Yaoundé",
@@ -43,6 +46,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       "Amasia Ekounou",
       "best school Yaoundé",
     ],
+    icons: {
+      icon: "/favicon.ico",
+    },
     openGraph: {
       title: "Amasia - Bilingual Excellence Since 1994",
       description: "Quality education in French and English in Yaoundé",
