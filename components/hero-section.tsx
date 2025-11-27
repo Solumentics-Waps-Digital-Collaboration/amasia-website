@@ -27,7 +27,7 @@ export function HeroSection({ dict }: HeroSectionProps) {
   }, [])
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Images with Fade Transition */}
       {images.map((image, index) => (
         <div
@@ -42,22 +42,25 @@ export function HeroSection({ dict }: HeroSectionProps) {
       ))}
       
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80" />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center text-white">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-balance">
+      <div className="relative z-10 container mx-auto px-4 py-8 text-center text-white">
+        {/* Title - Much smaller on mobile */}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight text-balance">
           {dict.hero.title}
         </h1>
-        <p className="text-lg sm:text-xl md:text-2xl mb-10 max-w-4xl mx-auto text-white/90 leading-relaxed text-pretty">
+        
+        {/* Subtitle - Smaller and more readable on mobile */}
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 md:mb-10 max-w-4xl mx-auto text-white/90 leading-relaxed text-pretty px-2">
           {dict.hero.subtitle}
         </p>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+        {/* CTA Buttons - Better spacing on mobile */}
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 sm:mb-10 md:mb-12 px-4">
           <Button
             size="lg"
-            className="bg-lime-500 hover:bg-lime-600 text-white font-semibold px-8 py-6 text-lg rounded-full shadow-lg shadow-lime-500/30 transition-all hover:scale-105"
+            className="bg-lime-500 hover:bg-lime-600 text-white font-semibold px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg rounded-full shadow-lg shadow-lime-500/30 transition-all hover:scale-105"
             asChild
           >
             <a href="#contact">{dict.hero.cta}</a>
@@ -65,33 +68,33 @@ export function HeroSection({ dict }: HeroSectionProps) {
           <Button
             size="lg"
             variant="outline"
-            className="border-2 border-pink-300 text-pink-200 hover:bg-pink-300/20 font-semibold px-8 py-6 text-lg rounded-full bg-transparent"
+            className="border-2 border-pink-300 text-pink-200 hover:bg-pink-300/20 font-semibold px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg rounded-full bg-transparent"
             asChild
           >
             <a href="https://wa.me/237655583030" target="_blank" rel="noopener noreferrer">
-              <MessageCircle className="mr-2 h-5 w-5" />
+              <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
               {dict.hero.ctaWhatsapp}
             </a>
           </Button>
         </div>
 
-        {/* Trust Badges */}
-        <div className="flex flex-wrap justify-center gap-4 sm:gap-8">
+        {/* Trust Badges - Stacked better on mobile */}
+        <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 sm:gap-4 md:gap-8 px-2">
           {[
             { icon: Trophy, text: dict.hero.badge1 },
             { icon: GraduationCap, text: dict.hero.badge2 },
             { icon: Monitor, text: dict.hero.badge3 },
             { icon: Award, text: dict.hero.badge4 },
           ].map((badge, index) => (
-            <div key={index} className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
-              <badge.icon className="h-5 w-5 text-lime-400" />
-              <span className="text-sm font-medium">{badge.text}</span>
+            <div key={index} className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-full">
+              <badge.icon className="h-4 w-4 sm:h-5 sm:w-5 text-lime-400 flex-shrink-0" />
+              <span className="text-xs sm:text-sm font-medium">{badge.text}</span>
             </div>
           ))}
         </div>
 
         {/* Image Indicators */}
-        <div className="flex justify-center gap-2 mt-8">
+        <div className="flex justify-center gap-2 mt-6 sm:mt-8">
           {images.map((_, index) => (
             <button
               key={index}
