@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "mission": "Mission",
+    "programs": "Programmes",
+    "whyUs": "Avantages",
+    "facilities": "Installations",
+    "activities": "Activités",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Une Éducation Bilingue et Technique pour Vos Enfants",
+    "subtitle": "Le Complexe Scolaire Bilingue et Technique Amasia offre une éducation de qualité depuis 1994. Nous formons les élèves dans un cadre sécurisé, moderne et orienté vers l'excellence académique et technique.",
+    "cta": "Inscrivez Votre Enfant",
+    "ctaWhatsapp": "Contactez-nous sur WhatsApp",
+    "badge1": "Depuis 1994",
+    "badge2": "Enseignement Bilingue",
+    "badge3": "Laboratoires Modernes",
+    "badge4": "Résultats Excellents"
+  },
+  "about": {
+    "title": "Qui Sommes-Nous?",
+    "content": "Le Complexe Scolaire Bilingue et Technique Amasia est un établissement d'enseignement maternel, primaire, secondaire général et technique offrant une éducation de qualité supérieure. Fondé en 1994 à Ekounou-Yaoundé, nous sommes devenus l'une des écoles bilingues les plus respectées du Cameroun.",
+    "content2": "Notre approche pédagogique unique combine l'excellence académique française et anglophone avec une formation technique moderne. Nous préparons nos élèves non seulement pour les examens officiels, mais aussi pour devenir des citoyens compétents, créatifs et confiants.",
+    "content3": "Avec plus de 30 ans d'expérience, nous avons formé des milliers d'élèves qui excellent aujourd'hui dans divers domaines professionnels au Cameroun et à l'international.",
+    "stat1Title": "Depuis 1994",
+    "stat1Desc": "Plus de 30 ans d'excellence éducative",
+    "stat2Title": "Formation Bilingue",
+    "stat2Desc": "Programmes francophones et anglophones",
+    "stat3Title": "Infrastructure Moderne",
+    "stat3Desc": "Salles de classe numériques et laboratoires équipés",
+    "stat4Title": "Taux de Réussite Élevé",
+    "stat4Desc": "Résultats satisfaisants aux examens officiels"
+  },
+  "mission": {
+    "title": "Notre Mission & Vision",
+    "missionTitle": "Notre Mission",
+    "missionContent": "Offrir aux jeunes un enseignement de qualité supérieure et une formation technique moderne qui les préparent pour réussir dans un monde en constante évolution. Nous nous engageons à développer les compétences académiques, techniques et personnelles de chaque élève dans un environnement bilingue et sécurisé.",
+    "visionTitle": "Notre Vision",
+    "visionContent": "Être l'établissement d'enseignement bilingue et technique de référence au Cameroun, reconnu pour l'excellence académique, l'innovation pédagogique, et la formation de leaders compétents et responsables qui contribuent au développement de notre nation."
+  },
+  "programs": {
+    "title": "Nos Programmes d'Enseignement",
+    "subtitle": "De la maternelle au baccalauréat, formation complète bilingue",
+    "kindergarten": {
+      "title": "Enseignement Maternel",
+      "age": "3-6 ans",
+      "desc": "Programme préscolaire stimulant qui éveille la curiosité naturelle des enfants. Nous utilisons des méthodes d'apprentissage ludiques pour développer les compétences linguistiques (français et anglais), sociales et cognitives de base.",
+      "features": [
+        "Apprentissage bilingue dès le plus jeune âge",
+        "Activités d'éveil et de développement",
+        "Classes à effectifs réduits",
+        "Suivi personnalisé de chaque enfant"
+      ]
+    },
+    "primary": {
+      "title": "Enseignement Primaire",
+      "age": "6-12 ans",
+      "desc": "Programme primaire complet couvrant toutes les matières fondamentales en français et en anglais. Nous construisons des bases solides en lecture, écriture, mathématiques et sciences.",
+      "features": [
+        "Curriculum bilingue équilibré",
+        "Initiation à l'informatique",
+        "Bibliothèque avec salle de lecture",
+        "Activités sportives et culturelles"
+      ]
+    },
+    "secondary": {
+      "title": "Enseignement Secondaire Général",
+      "age": "12-18 ans",
+      "desc": "Formation complète du premier et second cycle (6ème à Terminale). Préparation aux examens officiels: BEPC, Probatoire, Baccalauréat (séries A, C, D) et GCE O/L et A/L.",
+      "features": [
+        "Toutes les séries scientifiques et littéraires",
+        "Préparation GCE et Baccalauréat",
+        "Laboratoires de sciences équipés",
+        "Salles de classe numériques"
+      ]
+    },
+    "technical": {
+      "title": "Enseignement Technique",
+      "age": "15-21 ans",
+      "desc": "Formation professionnelle et technique de qualité préparant aux diplômes BEPC Technique, Probatoire Technique, Baccalauréat Technique, ainsi que ITVE et ATVE.",
+      "features": [
+        "Formation théorique et pratique",
+        "Ateliers techniques équipés",
+        "Certifications reconnues",
+        "Insertion professionnelle facilitée"
+      ]
+    }
+  },
+  "whyUs": {
+    "title": "Pourquoi Choisir Amasia?",
+    "subtitle": "Les avantages qui font notre différence depuis 1994",
+    "advantages": [
+      {
+        "title": "Accès Facile",
+        "desc": "Situé à Ekounou-Yaoundé, facilement accessible avec service de transport scolaire disponible."
+      },
+      {
+        "title": "Enseignants Qualifiés",
+        "desc": "Professeurs expérimentés, dynamiques et fidèles. Plusieurs sont correcteurs officiels aux examens nationaux."
+      },
+      {
+        "title": "Salles Informatiques Modernes",
+        "desc": "Plus de 120 machines avec connexion internet à haut débit."
+      },
+      {
+        "title": "Laboratoires Scientifiques",
+        "desc": "2 laboratoires bien équipés (physique, chimie, biologie, géologie)."
+      },
+      { "title": "Bibliothèque Complète", "desc": "Bibliothèque fournie avec salle de lecture calme." },
+      {
+        "title": "Encadrement Pédagogique",
+        "desc": "Équipe d'inspecteurs dédiée à l'encadrement et au suivi pédagogique."
+      },
+      { "title": "Séries Bilingues", "desc": "Programmes francophones et anglophones intégrés." },
+      { "title": "Résultats Excellents", "desc": "Taux de réussite satisfaisant aux examens officiels." },
+      { "title": "Transport Scolaire", "desc": "Service de transport sécurisé pour faciliter les déplacements." },
+      { "title": "Salles Numériques", "desc": "Classes équipées de tableaux numériques interactifs." },
+      { "title": "Effectifs Réduits", "desc": "Classes à effectifs limités permettant un suivi personnalisé." },
+      { "title": "Sécurité Maximale", "desc": "Complexe entièrement clôturé avec vidéo-surveillance 24/7." }
+    ]
+  },
+  "facilities": {
+    "title": "Nos Installations de Pointe",
+    "subtitle": "Infrastructure moderne pour un apprentissage optimal",
+    "items": [
+      { "title": "Salles Informatiques", "caption": "120+ ordinateurs avec internet haut débit" },
+      { "title": "Laboratoires de Sciences", "caption": "Équipements modernes pour physique, chimie, biologie" },
+      { "title": "Bibliothèque", "caption": "Espace de lecture calme et ressources documentaires" },
+      { "title": "Salles Numériques", "caption": "Tableaux interactifs et technologies éducatives" },
+      { "title": "Terrain de Sport", "caption": "Espaces pour activités physiques et sportives" },
+      { "title": "Infirmerie", "caption": "Soins de premiers secours avec personnel qualifié" }
+    ]
+  },
+  "activities": {
+    "title": "Activités Périscolaires",
+    "subtitle": "Développement complet de la personnalité de l'élève",
+    "intro": "Au-delà de l'excellence académique, nous offrons une gamme d'activités périscolaires pour développer les talents artistiques, sportifs et créatifs de nos élèves.",
+    "items": [
+      { "title": "Arts Plastiques", "desc": "Peinture, sculpture, poterie - expression créative" },
+      { "title": "Chorale et Musique", "desc": "Formation musicale et apprentissage d'instruments" },
+      { "title": "Théâtre", "desc": "Art dramatique et développement de la confiance" },
+      { "title": "MMA et Sports", "desc": "Discipline et condition physique" },
+      { "title": "Club de Lecture", "desc": "Encouragement à la lecture" },
+      { "title": "Club d'Écriture", "desc": "Développement des compétences rédactionnelles" },
+      { "title": "Danse", "desc": "Expression corporelle et chorégraphies" },
+      { "title": "Excursions", "desc": "Visites de sites et sorties pédagogiques" }
+    ]
+  },
+  "stats": {
+    "title": "Nos Résultats aux Examens",
+    "subtitle": "Une préparation rigoureuse pour la réussite",
+    "intro": "En tant que sous-centre officiel d'examens, nous garantissons une préparation de qualité.",
+    "years": "Années d'Expérience",
+    "students": "Élèves Diplômés",
+    "success": "Taux de Réussite",
+    "teachers": "Enseignants Qualifiés"
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur notre école",
+    "items": [
+      {
+        "q": "Quels sont les horaires de l'école?",
+        "a": "Les cours se déroulent du lundi au vendredi de 7h30 à 15h00 pour le primaire et de 7h30 à 16h30 pour le secondaire. Nous proposons également des cours du soir de 17h00 à 19h30."
+      },
+      {
+        "q": "Comment se déroule le processus d'inscription?",
+        "a": "L'inscription se fait en trois étapes simples: 1) Contactez-nous via WhatsApp au 6 55 58 30 30. 2) Visitez notre campus à Ekounou. 3) Remplissez le dossier d'inscription avec les documents requis."
+      },
+      {
+        "q": "Proposez-vous un service de transport scolaire?",
+        "a": "Oui, nous disposons d'un service de transport scolaire sécurisé qui couvre différents quartiers de Yaoundé."
+      },
+      {
+        "q": "Quelles sont les langues d'enseignement?",
+        "a": "Nous offrons un enseignement véritablement bilingue. Les élèves peuvent suivre le programme francophone ou anglophone, ou des séries bilingues."
+      },
+      {
+        "q": "Quels sont les frais de scolarité?",
+        "a": "Les frais varient selon le niveau d'études. Nous proposons des facilités de paiement. Contactez-nous pour une grille tarifaire personnalisée."
+      },
+      {
+        "q": "L'école dispose-t-elle d'une cantine?",
+        "a": "Oui, notre cantine propose des repas équilibrés et nutritifs préparés dans des conditions d'hygiène irréprochables."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Offrez à Votre Enfant un Avenir Brillant",
+    "subtitle": "Rejoignez la famille Amasia et donnez à votre enfant les meilleures chances de réussite dans un environnement bilingue et sécurisé. Les inscriptions sont ouvertes!",
+    "enroll": "Inscrire Mon Enfant",
+    "visit": "Visiter l'École",
+    "call": "Appelez-nous au 6 55 58 30 30 ou 6 77 56 35 15"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes à votre écoute",
+    "form": {
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Numéro de téléphone",
+      "type": "Type de demande",
+      "types": [
+        "Inscription nouvel élève",
+        "Demande d'information",
+        "Visite du campus",
+        "Cours du soir / vacances",
+        "Emploi / Enseignement",
+        "Autre"
+      ],
+      "message": "Message",
+      "submit": "Envoyer le Message",
+      "success": "Message envoyé avec succès!",
+      "error": "Erreur lors de l'envoi. Veuillez réessayer."
+    },
+    "address": "Notre Adresse",
+    "addressValue": "BP 13963\nEkounou, Yaoundé\nCameroun",
+    "phoneTitle": "Téléphone",
+    "phoneValue": "Principal: +237 6 55 58 30 30\nSecondaire: +237 6 77 56 35 15",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "hours": "Heures d'Ouverture",
+    "hoursValue": "Lundi - Vendredi: 7h00 - 17h00\nSamedi: 8h00 - 13h00\nDimanche: Fermé",
+    "viewMap": "Voir sur Google Maps",
+    "callNow": "Appeler Maintenant",
+    "chatWhatsapp": "Discuter sur WhatsApp",
+    "sendEmail": "Envoyer un Email"
+  },
+  "footer": {
+    "tagline": "Excellence Bilingue Depuis 1994",
+    "desc": "Complexe Scolaire Bilingue et Technique Amasia offre une éducation de qualité supérieure depuis 1994.",
+    "quickLinks": "Liens Rapides",
+    "contactUs": "Contact",
+    "copyright": "© 2025 Complexe Scolaire Bilingue et Technique Amasia. Tous droits réservés.",
+    "madeWith": "Conçu avec ❤️ pour l'éducation de qualité"
+  },
+  "whatsappTooltip": "Discutez avec nous"
+}
