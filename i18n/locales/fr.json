@@ -126,12 +126,36 @@
     "title": "Nos Installations de Pointe",
     "subtitle": "Infrastructure moderne pour un apprentissage optimal",
     "items": [
-      { "title": "Salles Informatiques", "caption": "120+ ordinateurs avec internet haut débit" },
-      { "title": "Laboratoires de Sciences", "caption": "Équipements modernes pour physique, chimie, biologie" },
-      { "title": "Bibliothèque", "caption": "Espace de lecture calme et ressources documentaires" },
-      { "title": "Salles Numériques", "caption": "Tableaux interactifs et technologies éducatives" },
-      { "title": "Terrain de Sport", "caption": "Espaces pour activités physiques et sportives" },
-      { "title": "Infirmerie", "caption": "Soins de premiers secours avec personnel qualifié" }
+      {
+        "title": "Salles Informatiques",
+        "caption": "120+ ordinateurs avec internet haut débit",
+        "image": "/computer-room.jpg"
+      },
+      {
+        "title": "Laboratoires de Sciences",
+        "caption": "Équipements modernes pour physique, chimie, biologie",
+        "image": "/maconnerie.jpg"
+      },
+      {
+        "title": "Bibliothèque",
+        "caption": "Espace de lecture calme et ressources documentaires",
+        "image": "/library.jpg"
+      },
+      {
+        "title": "Salles Numériques",
+        "caption": "Tableaux interactifs et technologies éducatives",
+        "image": "/computer-room.jpg"
+      },
+      {
+        "title": "Terrain de Sport",
+        "caption": "Espaces pour activités physiques et sportives",
+        "image": "/sports.jpg"
+      },
+      {
+        "title": "Transport Scolaire",
+        "caption": "Service de bus sécurisé pour la sécurité et le confort des élèves",
+        "image": "/bus.jpg"
+      }
     ]
   },
   "activities": {

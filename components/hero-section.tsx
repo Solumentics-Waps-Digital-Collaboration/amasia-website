@@ -1,5 +1,6 @@
 "use client"
 
+import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Trophy, GraduationCap, Monitor, Award, MessageCircle, ChevronDown } from "lucide-react"
 import type { Dictionary } from "@/i18n/get-dictionary"
@@ -9,15 +10,37 @@ interface HeroSectionProps {
 }
 
 export function HeroSection({ dict }: HeroSectionProps) {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
+  
+  const images = [
+    '/nursery.jpg',
+    '/foundator.jpg',
+    '/aerial-view.jpg'
+  ]
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length)
+    }, 5000) // Change image every 5 seconds
+
+    return () => clearInterval(interval)
+  }, [])
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url('/modern-school-building-with-students-in-cameroon-a.jpg')`,
-        }}
-      />
+      {/* Background Images with Fade Transition */}
+      {images.map((image, index) => (
+        <div
+          key={image}
+          className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${
+            index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+          }`}
+          style={{
+            backgroundImage: `url('${image}')`,
+          }}
+        />
+      ))}
+      
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
 
@@ -64,6 +87,22 @@ export function HeroSection({ dict }: HeroSectionProps) {
               <badge.icon className="h-5 w-5 text-lime-400" />
               <span className="text-sm font-medium">{badge.text}</span>
             </div>
+          ))}
+        </div>
+
+        {/* Image Indicators */}
+        <div className="flex justify-center gap-2 mt-8">
+          {images.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentImageIndex(index)}
+              className={`w-2 h-2 rounded-full transition-all ${
+                index === currentImageIndex 
+                  ? 'bg-lime-400 w-8' 
+                  : 'bg-white/50 hover:bg-white/70'
+              }`}
+              aria-label={`Go to image ${index + 1}`}
+            />
           ))}
         </div>
       </div>

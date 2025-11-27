@@ -21,7 +21,7 @@ export function AboutSection({ dict }: AboutSectionProps) {
           {/* Image */}
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
-              <img src="/african-students-in-classroom-studying-together-bi.jpg" alt="Students at Amasia" className="w-full h-full object-cover" />
+              <img src="/nursery.jpg" alt="Students at Amasia" className="w-full h-full object-cover" />
             </div>
             {/* Decorative Element */}
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-lime-100 rounded-2xl -z-10" />

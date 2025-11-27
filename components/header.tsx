@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X, GraduationCap } from "lucide-react"
+import Image from "next/image"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import type { Dictionary } from "@/i18n/get-dictionary"
@@ -49,18 +50,15 @@ export function Header({ dict, locale }: HeaderProps) {
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center gap-2">
-            <div
-              className={cn(
-                "flex h-10 w-10 items-center justify-center rounded-lg",
-                isScrolled ? "bg-lime-500" : "bg-white/20 backdrop-blur",
-              )}
-            >
-              <GraduationCap className={cn("h-6 w-6", isScrolled ? "text-white" : "text-white")} />
-            </div>
-            <span className={cn("font-bold text-lg hidden sm:block", isScrolled ? "text-gray-900" : "text-white")}>
-              AMASIA
-            </span>
+          <Link href={`/${locale}`} className="flex items-center">
+            <Image
+              src="/logo-am.jpg"
+              alt="AMASIA Logo"
+              width={64}
+              height={64}
+              className="rounded-lg transition-all duration-300 w-14 h-14 sm:w-16 sm:h-16"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

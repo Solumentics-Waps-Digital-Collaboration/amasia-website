@@ -123,12 +123,36 @@
     "title": "Our Cutting-Edge Facilities",
     "subtitle": "Modern infrastructure for optimal learning",
     "items": [
-      { "title": "Computer Rooms", "caption": "120+ computers with high-speed internet" },
-      { "title": "Science Laboratories", "caption": "Modern equipment for physics, chemistry, biology" },
-      { "title": "Library", "caption": "Quiet reading space and documentary resources" },
-      { "title": "Digital Classrooms", "caption": "Interactive boards and educational technologies" },
-      { "title": "Sports Field", "caption": "Spaces for physical and sports activities" },
-      { "title": "Infirmary", "caption": "First aid care with qualified personnel" }
+      {
+        "title": "Computer Rooms",
+        "caption": "120+ computers with high-speed internet",
+        "image": "/computer-room.jpg"
+      },
+      {
+        "title": "Science Laboratories",
+        "caption": "Modern equipment for physics, chemistry, biology",
+        "image": "/maconnerie.jpg"
+      },
+      {
+        "title": "Library",
+        "caption": "Quiet reading space and documentary resources",
+        "image": "/library.jpg"
+      },
+      {
+        "title": "Digital Classrooms",
+        "caption": "Interactive boards and educational technologies",
+        "image": "/computer-room.jpg"
+      },
+      {
+        "title": "Sports Field",
+        "caption": "Spaces for physical and sports activities",
+        "image": "/sports.jpg"
+      },
+      {
+        "title": "School Transport",
+        "caption": "Secure bus service for student safety and comfort",
+        "image": "/bus.jpg"
+      }
     ]
   },
   "activities": {
