@@ -130,34 +130,54 @@
     "subtitle": "Modern infrastructure adapted to training",
     "items": [
       {
-        "title": "Computer Rooms",
-        "caption": "Over 120 computers with high-speed internet",
-        "image": "/computer-room.jpg"
+        "title": "Chess Club",
+        "caption": "Strategy and concentration development",
+        "image": "/amasia-chess-club.jpg"
       },
       {
-        "title": "Science Laboratories",
-        "caption": "Two modern laboratories (Physics, Chemistry, Bio)",
-        "image": "/maconnerie.jpg"
+        "title": "School Cafeteria",
+        "caption": "Modern and hygienic dining space",
+        "image": "/amasia-cafeteria.jpg"
       },
       {
-        "title": "Library",
-        "caption": "Reading and research space",
-        "image": "/library.jpg"
+        "title": "Science Laboratory",
+        "caption": "Complete equipment for scientific practice",
+        "image": "/amasia-science-lab.jpg"
+      },
+      {
+        "title": "Arts & Culture",
+        "caption": "Traditional dances and cultural expressions",
+        "image": "/amasia-cultural-dance.jpg"
+      },
+      {
+        "title": "Carpentry Workshop",
+        "caption": "Practical training in woodworking",
+        "image": "/amasia-carpentry-workshop.jpg"
+      },
+      {
+        "title": "Mechanical Workshop",
+        "caption": "Technical training in automotive mechanics",
+        "image": "/amasia-mechanical-workshop.jpg"
+      },
+      {
+        "title": "Sports Excellence",
+        "caption": "Our champions at national and international level",
+        "image": "/amasia-sports-winners.jpg"
+      },
+      {
+        "title": "Sewing Workshop",
+        "caption": "Professional training in sewing and garment making",
+        "image": "/amasia-sewing-workshop.jpg"
       },
       {
         "title": "Digital Classrooms",
-        "caption": "Classrooms equipped for modern teaching",
-        "image": "/computer-room.jpg"
+        "caption": "Classes equipped with projectors and modern technology",
+        "image": "/amasia-digital-classroom.jpg"
       },
       {
-        "title": "Technical Workshops",
-        "caption": "Equipment for practical training",
-        "image": "/sports.jpg"
-      },
-      {
-        "title": "Transport & Security",
-        "caption": "School buses and video surveillance",
-        "image": "/bus.jpg"
+        "title": "Video Surveillance",
+        "caption": "Complete security system for everyone's protection",
+        "image": "/amasia-security-surveillance.jpg"
       }
     ]
   },

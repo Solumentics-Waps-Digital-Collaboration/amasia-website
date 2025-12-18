@@ -14,6 +14,7 @@ import { CTASection } from "@/components/cta-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
+import { WelcomeVideoModal } from "@/components/welcome-video-modal"
 
 export default async function HomePage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params
@@ -21,6 +22,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
 
   return (
     <main className="min-h-screen">
+      <WelcomeVideoModal />
       <Header dict={dict} locale={locale} />
       <HeroSection dict={dict} />
       <AboutSection dict={dict} />

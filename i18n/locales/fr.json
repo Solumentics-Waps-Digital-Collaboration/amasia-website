@@ -130,34 +130,54 @@
     "subtitle": "Infrastructure moderne adaptée à la formation",
     "items": [
       {
-        "title": "Salles Informatiques",
-        "caption": "Plus de 120 ordinateurs avec internet haut débit",
-        "image": "/computer-room.jpg"
+        "title": "Club d'Échecs",
+        "caption": "Développement de la stratégie et de la concentration",
+        "image": "/amasia-chess-club.jpg"
       },
       {
-        "title": "Laboratoires de Sciences",
-        "caption": "Deux laboratoires modernes (Physique, Chimie, Bio)",
-        "image": "/maconnerie.jpg"
+        "title": "Cantine Scolaire",
+        "caption": "Espace de restauration moderne et hygiénique",
+        "image": "/amasia-cafeteria.jpg"
       },
       {
-        "title": "Bibliothèque",
-        "caption": "Espace de lecture et de recherche",
-        "image": "/library.jpg"
+        "title": "Laboratoire de Sciences",
+        "caption": "Équipement complet pour pratiques scientifiques",
+        "image": "/amasia-science-lab.jpg"
+      },
+      {
+        "title": "Arts & Culture",
+        "caption": "Danses traditionnelles et expressions culturelles",
+        "image": "/amasia-cultural-dance.jpg"
+      },
+      {
+        "title": "Atelier de Menuiserie",
+        "caption": "Formation pratique en travail du bois",
+        "image": "/amasia-carpentry-workshop.jpg"
+      },
+      {
+        "title": "Atelier Mécanique",
+        "caption": "Formation technique en mécanique automobile",
+        "image": "/amasia-mechanical-workshop.jpg"
+      },
+      {
+        "title": "Excellence Sportive",
+        "caption": "Nos champions au niveau national et international",
+        "image": "/amasia-sports-winners.jpg"
+      },
+      {
+        "title": "Atelier de Couture",
+        "caption": "Formation professionnelle en couture et confection",
+        "image": "/amasia-sewing-workshop.jpg"
       },
       {
         "title": "Salles Numériques",
-        "caption": "Classes équipées pour l'enseignement moderne",
-        "image": "/computer-room.jpg"
+        "caption": "Classes équipées avec projecteurs et technologies modernes",
+        "image": "/amasia-digital-classroom.jpg"
       },
       {
-        "title": "Ateliers Techniques",
-        "caption": "Équipements pour la formation pratique",
-        "image": "/sports.jpg"
-      },
-      {
-        "title": "Transport & Sécurité",
-        "caption": "Bus scolaires et vidéosurveillance",
-        "image": "/bus.jpg"
+        "title": "Vidéosurveillance",
+        "caption": "Système de sécurité complet pour la protection de tous",
+        "image": "/amasia-security-surveillance.jpg"
       }
     ]
   },
