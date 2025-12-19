@@ -27,7 +27,7 @@ export function CTASection({ dict }: CTASectionProps) {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <Button
             size="lg"
-            className="bg-lime-500 hover:bg-lime-600 text-white font-semibold px-10 py-6 text-lg rounded-full shadow-lg shadow-lime-500/30 transition-all hover:scale-105"
+            className="bg-[#fbc338] hover:bg-[#e7a010] text-white font-semibold px-10 py-6 text-lg rounded-full shadow-lg shadow-[#fbc338]/30 transition-all hover:scale-105"
             asChild
           >
             <a href="#contact">{dict.cta.enroll}</a>

@@ -70,7 +70,7 @@ export function Header({ dict, locale }: HeaderProps) {
                 className={cn(
                   "px-3 py-2 text-sm font-medium rounded-lg transition-colors",
                   isScrolled
-                    ? "text-gray-700 hover:text-lime-600 hover:bg-lime-50"
+                    ? "text-gray-700 hover:text-[#fbc338] hover:bg-[#fbc338]/10"
                     : "text-white/90 hover:text-white hover:bg-white/10",
                 )}
               >
@@ -88,7 +88,7 @@ export function Header({ dict, locale }: HeaderProps) {
                 className={cn(
                   "font-semibold",
                   isScrolled
-                    ? "border-lime-500 text-lime-600 hover:bg-lime-50"
+                    ? "border-[#fbc338] text-[#fbc338] hover:bg-[#fbc338]/10"
                     : "border-white/50 text-white hover:bg-white/10 bg-transparent",
                 )}
               >
@@ -116,7 +116,7 @@ export function Header({ dict, locale }: HeaderProps) {
                 <a
                   key={item.href}
                   href={item.href}
-                  className="px-4 py-3 text-gray-700 hover:text-lime-600 hover:bg-lime-50 rounded-lg font-medium"
+                  className="px-4 py-3 text-gray-700 hover:text-[#fbc338] hover:bg-[#fbc338]/10 rounded-lg font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}

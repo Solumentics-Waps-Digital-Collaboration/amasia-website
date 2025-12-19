@@ -45,7 +45,7 @@ function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: str
   }, [target])
 
   return (
-    <div ref={ref} className="text-5xl sm:text-6xl font-bold text-lime-500">
+    <div ref={ref} className="text-5xl sm:text-6xl font-bold text-[#fbc338]">
       {count}
       {suffix}
     </div>
@@ -71,7 +71,7 @@ export function StatsSection({ dict }: StatsSectionProps) {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-lime-100 text-lime-600 mb-4">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-[#fbc338]/20 text-[#fbc338] mb-4">
                 <stat.icon className="h-8 w-8" />
               </div>
               <AnimatedCounter target={stat.value} suffix={stat.suffix} />

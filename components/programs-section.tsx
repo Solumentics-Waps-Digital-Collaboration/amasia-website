@@ -12,26 +12,26 @@ export function ProgramsSection({ dict }: ProgramsSectionProps) {
     {
       icon: Baby,
       data: dict.programs.kindergarten,
-      color: "bg-pink-500",
-      bgColor: "bg-pink-50",
+      color: "bg-[#e7a010]",
+      bgColor: "bg-[#e7a010]/10",
     },
     {
       icon: BookOpen,
       data: dict.programs.primary,
-      color: "bg-blue-500",
-      bgColor: "bg-blue-50",
+      color: "bg-[#fbc338]",
+      bgColor: "bg-[#fbc338]/10",
     },
     {
       icon: GraduationCap,
       data: dict.programs.secondary,
-      color: "bg-lime-500",
-      bgColor: "bg-lime-50",
+      color: "bg-[#fbc338]",
+      bgColor: "bg-[#fbc338]/10",
     },
     {
       icon: Wrench,
       data: dict.programs.technical,
-      color: "bg-orange-500",
-      bgColor: "bg-orange-50",
+      color: "bg-[#fbc338]",
+      bgColor: "bg-[#fbc338]/10",
     },
   ]
 
@@ -69,7 +69,7 @@ export function ProgramsSection({ dict }: ProgramsSectionProps) {
                 <ul className="space-y-2">
                   {program.data.features.map((feature, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
-                      <CheckCircle className="h-4 w-4 text-lime-500 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-[#fbc338] mt-0.5 flex-shrink-0" />
                       <span>{feature}</span>
                     </li>
                   ))}

@@ -1,8 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Button } from "@/components/ui/button"
-import { Trophy, GraduationCap, Monitor, Award, MessageCircle, ChevronDown } from "lucide-react"
+import { Trophy, GraduationCap, Monitor, Award, ChevronDown } from "lucide-react"
 import type { Dictionary } from "@/i18n/get-dictionary"
 
 interface HeroSectionProps {
@@ -81,28 +80,6 @@ export function HeroSection({ dict }: HeroSectionProps) {
           {dict.hero.subtitle}
         </p>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 sm:mb-10 md:mb-12 px-4">
-          <Button
-            size="lg"
-            className="bg-lime-500 hover:bg-lime-600 text-white font-semibold px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg rounded-full shadow-lg shadow-lime-500/30 transition-all hover:scale-105"
-            asChild
-          >
-            <a href="#contact">{dict.hero.cta}</a>
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-2 border-pink-300 text-pink-200 hover:bg-pink-300/20 font-semibold px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg rounded-full bg-transparent"
-            asChild
-          >
-            <a href="https://wa.me/237655583030" target="_blank" rel="noopener noreferrer">
-              <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-              {dict.hero.ctaWhatsapp}
-            </a>
-          </Button>
-        </div>
-
         {/* Trust Badges */}
         <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 sm:gap-4 md:gap-8 px-2">
           {[
@@ -112,7 +89,7 @@ export function HeroSection({ dict }: HeroSectionProps) {
             { icon: Award, text: dict.hero.badge4 },
           ].map((badge, index) => (
             <div key={index} className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-full">
-              <badge.icon className="h-4 w-4 sm:h-5 sm:w-5 text-lime-400 flex-shrink-0" />
+              <badge.icon className="h-4 w-4 sm:h-5 sm:w-5 text-[#fbc338] flex-shrink-0" />
               <span className="text-xs sm:text-sm font-medium">{badge.text}</span>
             </div>
           ))}
@@ -126,7 +103,7 @@ export function HeroSection({ dict }: HeroSectionProps) {
               onClick={() => setCurrentMediaIndex(index)}
               className={`w-2 h-2 rounded-full transition-all ${
                 index === currentMediaIndex 
-                  ? 'bg-lime-400 w-8' 
+                  ? 'bg-[#fbc338] w-8' 
                   : 'bg-white/50 hover:bg-white/70'
               }`}
               aria-label={`Go to ${index === 0 ? 'video' : `image ${index}`}`}

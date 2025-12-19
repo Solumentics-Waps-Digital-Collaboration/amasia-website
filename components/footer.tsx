@@ -33,12 +33,12 @@ export function Footer({ dict, locale }: FooterProps) {
           {/* About Column */}
           <div className="lg:col-span-1">
             <Link href={`/${locale}`} className="flex items-center gap-3 mb-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-lime-500">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#fbc338]">
                 <GraduationCap className="h-7 w-7 text-white" />
               </div>
               <span className="font-bold text-xl">AMASIA</span>
             </Link>
-            <p className="text-lime-400 font-medium mb-3">{dict.footer.tagline}</p>
+            <p className="text-[#fbc338] font-medium mb-3">{dict.footer.tagline}</p>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">{dict.footer.desc}</p>
 
             {/* Social Media */}
@@ -47,7 +47,7 @@ export function Footer({ dict, locale }: FooterProps) {
                 <a
                   key={index}
                   href={social.href}
-                  className="w-10 h-10 rounded-lg bg-gray-800 hover:bg-lime-500 flex items-center justify-center transition-colors"
+                  className="w-10 h-10 rounded-lg bg-gray-800 hover:bg-[#fbc338] flex items-center justify-center transition-colors"
                   aria-label={social.label}
                 >
                   <social.icon className="h-5 w-5" />
@@ -62,7 +62,7 @@ export function Footer({ dict, locale }: FooterProps) {
             <ul className="space-y-3">
               {navLinks.map((link, index) => (
                 <li key={index}>
-                  <a href={link.href} className="text-gray-400 hover:text-lime-400 transition-colors text-sm">
+                  <a href={link.href} className="text-gray-400 hover:text-[#fbc338] transition-colors text-sm">
                     {link.label}
                   </a>
                 </li>
@@ -75,7 +75,7 @@ export function Footer({ dict, locale }: FooterProps) {
             <h3 className="font-bold text-lg mb-6">{dict.footer.contactUs}</h3>
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-lime-400 mt-0.5" />
+                <MapPin className="h-5 w-5 text-[#fbc338] mt-0.5" />
                 <div className="text-sm text-gray-400">
                   <p>BP 13963</p>
                   <p>Ekounou, Yaoundé</p>
@@ -83,19 +83,19 @@ export function Footer({ dict, locale }: FooterProps) {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Phone className="h-5 w-5 text-lime-400 mt-0.5" />
+                <Phone className="h-5 w-5 text-[#fbc338] mt-0.5" />
                 <div className="text-sm text-gray-400">
                   <p>+237 6 55 58 30 30</p>
                   <p>+237 6 77 56 35 15</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Mail className="h-5 w-5 text-lime-400 mt-0.5" />
-                <p className="text-sm text-gray-400">complexescolaire@amasia.cm</p>
+                <Mail className="h-5 w-5 text-[#fbc338] mt-0.5" />
+                <p className="text-sm text-gray-400">complexescolaire@csb-amasia.com</p>
               </div>
               <div className="flex items-start gap-3">
-                <Globe className="h-5 w-5 text-lime-400 mt-0.5" />
-                <p className="text-sm text-gray-400">complexescolaire.amasia.cm</p>
+                <Globe className="h-5 w-5 text-[#fbc338] mt-0.5" />
+                <p className="text-sm text-gray-400">csb-amasia.com</p>
               </div>
             </div>
           </div>
@@ -107,7 +107,17 @@ export function Footer({ dict, locale }: FooterProps) {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-500">
             <p>{dict.footer.copyright}</p>
-            <p>{dict.footer.madeWith}</p>
+            <p>
+              {dict.footer.madeWith.split('Solumentics')[0]}
+              <a 
+                href="https://solumentics.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-[#fbc338] hover:text-[#e7a010] font-medium transition-colors"
+              >
+                Solumentics
+              </a>
+            </p>
           </div>
         </div>
       </div>

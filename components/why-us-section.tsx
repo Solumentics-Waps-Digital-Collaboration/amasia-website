@@ -23,7 +23,7 @@ export function WhyUsSection({ dict }: WhyUsSectionProps) {
   const icons = [MapPin, Users, Monitor, Flask, BookMarked, UserCheck, Globe, TrendingUp, Bus, Laptop, Users2, Shield]
 
   return (
-    <section id="why-us" className="py-20 sm:py-28 bg-gradient-to-b from-pink-50 to-white">
+    <section id="why-us" className="py-20 sm:py-28 bg-gradient-to-b from-[#e7a010]/10 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{dict.whyUs.title}</h2>
@@ -39,7 +39,7 @@ export function WhyUsSection({ dict }: WhyUsSectionProps) {
                 className="border-0 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white group"
               >
                 <CardContent className="p-6">
-                  <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-lime-100 text-lime-600 mb-4 group-hover:bg-lime-500 group-hover:text-white transition-colors">
+                  <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-[#fbc338]/20 text-[#fbc338] mb-4 group-hover:bg-[#fbc338] group-hover:text-white transition-colors">
                     <Icon className="h-6 w-6" />
                   </div>
                   <h3 className="font-bold text-gray-900 mb-2">{advantage.title}</h3>

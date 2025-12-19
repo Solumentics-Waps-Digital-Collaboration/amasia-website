@@ -37,7 +37,7 @@ export function ContactSection({ dict }: ContactSectionProps) {
       content: dict.contact.addressValue,
       action: dict.contact.viewMap,
       href: "https://maps.google.com/?q=Ekounou+Yaounde+Cameroon",
-      color: "bg-blue-100 text-blue-600",
+      color: "bg-[#fbc338]/20 text-[#fbc338]",
     },
     {
       icon: Phone,
@@ -45,7 +45,7 @@ export function ContactSection({ dict }: ContactSectionProps) {
       content: dict.contact.phoneValue,
       action: dict.contact.callNow,
       href: "tel:+237655583030",
-      color: "bg-green-100 text-green-600",
+      color: "bg-[#fbc338]/20 text-[#fbc338]",
     },
     {
       icon: MessageCircle,
@@ -53,7 +53,7 @@ export function ContactSection({ dict }: ContactSectionProps) {
       content: "+237 6 55 58 30 30",
       action: dict.contact.chatWhatsapp,
       href: "https://wa.me/237655583030",
-      color: "bg-lime-100 text-lime-600",
+      color: "bg-[#fbc338]/20 text-[#fbc338]",
     },
     {
       icon: Mail,
@@ -61,13 +61,13 @@ export function ContactSection({ dict }: ContactSectionProps) {
       content: "complexescolaire@amasia.cm",
       action: dict.contact.sendEmail,
       href: "mailto:complexescolaire@amasia.cm",
-      color: "bg-pink-100 text-pink-600",
+      color: "bg-[#e7a010]/20 text-[#e7a010]",
     },
     {
       icon: Clock,
       title: dict.contact.hours,
       content: dict.contact.hoursValue,
-      color: "bg-orange-100 text-orange-600",
+      color: "bg-[#fbc338]/20 text-[#fbc338]",
     },
   ]
 
@@ -119,7 +119,7 @@ export function ContactSection({ dict }: ContactSectionProps) {
                 </div>
                 <Button
                   type="submit"
-                  className="w-full bg-lime-500 hover:bg-lime-600 py-6 text-lg font-semibold"
+                  className="w-full bg-[#fbc338] hover:bg-[#e7a010] py-6 text-lg font-semibold"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? (
@@ -152,7 +152,7 @@ export function ContactSection({ dict }: ContactSectionProps) {
                         href={card.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 text-lime-600 hover:text-lime-700 text-sm font-medium mt-2"
+                        className="inline-flex items-center gap-1 text-[#fbc338] hover:text-[#e7a010] text-sm font-medium mt-2"
                       >
                         {card.action}
                         <ExternalLink className="h-3 w-3" />
