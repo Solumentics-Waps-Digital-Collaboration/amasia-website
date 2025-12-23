@@ -32,7 +32,13 @@
     "stat3Title": "Infrastructure Moderne",
     "stat3Desc": "Laboratoires modernes et salles numériques",
     "stat4Title": "Taux de Réussite",
-    "stat4Desc": "Résultats satisfaisants aux examens"
+    "stat4Desc": "Résultats satisfaisants aux examens",
+    "mma_highlight": {
+      "badge": "Programme d'Elite",
+      "title": "L'Excellence par le Sport : Notre Programme MMA",
+      "text": "Le Complexe Scolaire Bilingue AMASIA propose un programme de MMA unique. Plus qu'un sport, c'est un outil d'éducation qui enseigne la discipline, le respect et la gestion du stress.",
+      "text2": "Nos athlètes obtiennent des résultats exceptionnels au niveau national et international. Nous combinons entraînements de haute qualité et soutien scolaire rigoureux."
+    }
   },
   "mission": {
     "title": "Notre Mission",
@@ -135,9 +141,24 @@
         "image": "/amasia-chess-club.jpg"
       },
       {
-        "title": "Cantine Scolaire",
-        "caption": "Espace de restauration moderne et hygiénique",
+        "title": "Salle Pratique Hôtellerie",
+        "caption": "Formation professionnelle en arts culinaires et service",
         "image": "/amasia-cafeteria.jpg"
+      },
+      {
+        "title": "Château d'Eau Pédagogique",
+        "caption": "Infrastructure pour l'apprentissage de l'hydraulique",
+        "image": "/amasia-water-tower.jpg"
+      },
+      {
+        "title": "Fresque des Arts",
+        "caption": "Espace d'expression artistique et créative",
+        "image": "/amasia-art-mural.jpg"
+      },
+      {
+        "title": "Palmarès Sportif",
+        "caption": "Célébration de nos champions et leurs trophées",
+        "image": "/amasia-sports-awards.jpg"
       },
       {
         "title": "Laboratoire de Sciences",
@@ -158,11 +179,6 @@
         "title": "Atelier Mécanique",
         "caption": "Formation technique en mécanique automobile",
         "image": "/amasia-mechanical-workshop.jpg"
-      },
-      {
-        "title": "Excellence Sportive",
-        "caption": "Nos champions au niveau national et international",
-        "image": "/amasia-sports-winners.jpg"
       },
       {
         "title": "Atelier de Couture",

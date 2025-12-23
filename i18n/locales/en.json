@@ -32,7 +32,13 @@
     "stat3Title": "Modern Infrastructure",
     "stat3Desc": "Modern laboratories and digital classrooms",
     "stat4Title": "Success Rate",
-    "stat4Desc": "Satisfactory results in exams"
+    "stat4Desc": "Satisfactory results in exams",
+    "mma_highlight": {
+      "badge": "Elite Program",
+      "title": "Excellence Through Sport: Our MMA Program",
+      "text": "Amasia Bilingual School Complex offers a unique MMA program. More than a sport, it is an educational tool that teaches discipline, respect, and stress management.",
+      "text2": "Our athletes achieve exceptional results at national and international levels. We combine high-quality training with rigorous academic support."
+    }
   },
   "mission": {
     "title": "Our Mission",
@@ -135,9 +141,24 @@
         "image": "/amasia-chess-club.jpg"
       },
       {
-        "title": "School Cafeteria",
-        "caption": "Modern and hygienic dining space",
+        "title": "Hospitality Training Room",
+        "caption": "Professional training in culinary arts and service",
         "image": "/amasia-cafeteria.jpg"
+      },
+      {
+        "title": "Pedagogical Water Tower",
+        "caption": "Infrastructure for hydraulics learning",
+        "image": "/amasia-water-tower.jpg"
+      },
+      {
+        "title": "Arts Wall Mural",
+        "caption": "Space for artistic and creative expression",
+        "image": "/amasia-art-mural.jpg"
+      },
+      {
+        "title": "Sports Achievements",
+        "caption": "Celebrating our champions and their trophies",
+        "image": "/amasia-sports-awards.jpg"
       },
       {
         "title": "Science Laboratory",
@@ -158,11 +179,6 @@
         "title": "Mechanical Workshop",
         "caption": "Technical training in automotive mechanics",
         "image": "/amasia-mechanical-workshop.jpg"
-      },
-      {
-        "title": "Sports Excellence",
-        "caption": "Our champions at national and international level",
-        "image": "/amasia-sports-winners.jpg"
       },
       {
         "title": "Sewing Workshop",
