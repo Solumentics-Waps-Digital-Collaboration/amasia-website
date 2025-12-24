@@ -102,13 +102,29 @@ export function Footer({ dict, locale }: FooterProps) {
         </div>
       </div>
 
-      {/* Bottom Bar */}
+      {/* Bottom Bar - Updated Signatures */}
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-500">
             <p>{dict.footer.copyright}</p>
-            <p>
-              {dict.footer.madeWith.split('Solumentics')[0]}
+            
+            <div className="flex items-center flex-wrap justify-center gap-1">
+              <span>{dict.footer.madeWith.replace('Solumentics', '')}</span> {/* .replace is a fallback safeguard */}
+              
+              {/* Wapsdigital */}
+              <a 
+                href="https://wapsdigital.cloud" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-[#fbc338] hover:text-[#e7a010] font-medium transition-colors ml-1"
+              >
+                Wapsdigital
+              </a>
+
+              {/* The X Separator */}
+              <span className="px-1 text-gray-600 font-bold text-xs select-none">X</span>
+
+              {/* Solumentics */}
               <a 
                 href="https://solumentics.com" 
                 target="_blank" 
@@ -117,7 +133,8 @@ export function Footer({ dict, locale }: FooterProps) {
               >
                 Solumentics
               </a>
-            </p>
+            </div>
+
           </div>
         </div>
       </div>
