@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -19,15 +18,47 @@ interface ContactSectionProps {
 export function ContactSection({ dict }: ContactSectionProps) {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    type: "",
+    message: ""
+  })
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value })
+  }
+
+  const handleSelectChange = (value: string) => {
+    setFormData({ ...formData, type: value })
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
-    setIsSubmitting(false)
-    setIsSuccess(true)
-    setTimeout(() => setIsSuccess(false), 3000)
+    setIsSuccess(false)
+
+    try {
+      const res = await fetch('/api', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
+
+      if (!res.ok) throw new Error('Failed to send')
+
+      // Success
+      setIsSuccess(true)
+      setFormData({ name: "", email: "", phone: "", type: "", message: "" }) // Reset form
+
+      setTimeout(() => setIsSuccess(false), 5000)
+    } catch (error) {
+      console.error(error)
+      alert("Something went wrong. Please try again.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const contactCards = [
@@ -86,21 +117,41 @@ export function ContactSection({ dict }: ContactSectionProps) {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <Label htmlFor="name">{dict.contact.form.name} *</Label>
-                  <Input id="name" required className="mt-1.5" />
+                  <Input 
+                    id="name" 
+                    required 
+                    className="mt-1.5" 
+                    value={formData.name}
+                    onChange={handleChange}
+                  />
                 </div>
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <Label htmlFor="email">{dict.contact.form.email} *</Label>
-                    <Input id="email" type="email" required className="mt-1.5" />
+                    <Input 
+                      id="email" 
+                      type="email" 
+                      required 
+                      className="mt-1.5" 
+                      value={formData.email}
+                      onChange={handleChange}
+                    />
                   </div>
                   <div>
                     <Label htmlFor="phone">{dict.contact.form.phone} *</Label>
-                    <Input id="phone" type="tel" required className="mt-1.5" />
+                    <Input 
+                      id="phone" 
+                      type="tel" 
+                      required 
+                      className="mt-1.5" 
+                      value={formData.phone}
+                      onChange={handleChange}
+                    />
                   </div>
                 </div>
                 <div>
                   <Label htmlFor="type">{dict.contact.form.type} *</Label>
-                  <Select required>
+                  <Select required onValueChange={handleSelectChange} value={formData.type}>
                     <SelectTrigger className="mt-1.5">
                       <SelectValue placeholder={dict.contact.form.type} />
                     </SelectTrigger>
@@ -115,7 +166,14 @@ export function ContactSection({ dict }: ContactSectionProps) {
                 </div>
                 <div>
                   <Label htmlFor="message">{dict.contact.form.message} *</Label>
-                  <Textarea id="message" required rows={4} className="mt-1.5" />
+                  <Textarea 
+                    id="message" 
+                    required 
+                    rows={4} 
+                    className="mt-1.5" 
+                    value={formData.message}
+                    onChange={handleChange}
+                  />
                 </div>
                 <Button
                   type="submit"
@@ -131,7 +189,11 @@ export function ContactSection({ dict }: ContactSectionProps) {
                     dict.contact.form.submit
                   )}
                 </Button>
-                {isSuccess && <p className="text-green-600 text-center font-medium">{dict.contact.form.success}</p>}
+                {isSuccess && (
+                  <p className="text-green-600 text-center font-medium bg-green-50 py-3 rounded-lg">
+                    {dict.contact.form.success}
+                  </p>
+                )}
               </form>
             </CardContent>
           </Card>
