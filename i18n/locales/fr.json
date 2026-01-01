@@ -124,76 +124,112 @@
         "desc": "Un encadrement rigoureux et un suivi personnalisé."
       },
       { "title": "Séries Bilingues", "desc": "Une approche bilingue intégrée dans nos programmes." },
-      { "title": "Résultats Satisfaisants", "desc": "Des résultats constants et satisfaisants aux examens." },
-      { "title": "Classes Numériques", "desc": "Salles de classe numériques équipées." },
-      { "title": "Effectifs Réduits", "desc": "Effectifs réduits pour un meilleur suivi de chaque élève." },
-      { "title": "Sécurité Maximale", "desc": "Complexe entièrement sécurisé, clôturé avec vidéosurveillance." },
-      { "title": "Environnement Propice", "desc": "Un cadre dynamique et propice à la réussite." }
+      { "title": "Résultats Satisfaisants", "desc": "Des résultats constants et satisfaisants aux examens." }
     ]
   },
   "facilities": {
     "title": "Nos Installations",
     "subtitle": "Infrastructure moderne adaptée à la formation",
-    "items": [
+    "categories": [
       {
-        "title": "Club d'Échecs",
-        "caption": "Développement de la stratégie et de la concentration",
-        "image": "/amasia-chess-club.jpg"
+        "name": "Installations Académiques",
+        "items": [
+          {
+            "title": "Salle Informatique",
+            "caption": "Plus de 120 ordinateurs avec internet haut débit pour l'apprentissage numérique",
+            "image": "/Salle-info.jpg"
+          },
+          {
+            "title": "Bibliothèque",
+            "caption": "Bibliothèque bien fournie avec ressources de lecture étendues",
+            "image": "/Bibliothèque.jpg"
+          },
+          {
+            "title": "Salle de Classe Maternelle",
+            "caption": "Espaces d'apprentissage colorés pour nos plus jeunes apprenants",
+            "image": "/Salle-de-lasse-maternelle.jpg"
+          }
+        ]
       },
       {
-        "title": "Salle Pratique Hôtellerie",
-        "caption": "Formation professionnelle en arts culinaires et service",
-        "image": "/amasia-cafeteria.jpg"
+        "name": "Ateliers Techniques",
+        "items": [
+          {
+            "title": "Atelier de Menuiserie",
+            "caption": "Formation pratique en travail du bois et menuiserie",
+            "image": "/amasia-carpentry-workshop.jpg"
+          },
+          {
+            "title": "Atelier Mécanique",
+            "caption": "Formation technique en mécanique automobile",
+            "image": "/amasia-mechanical-workshop.jpg"
+          },
+          {
+            "title": "Atelier de Couture",
+            "caption": "Formation professionnelle en couture et confection",
+            "image": "/amasia-sewing-workshop.jpg"
+          },
+          {
+            "title": "Atelier de Maçonnerie",
+            "caption": "Formation pratique en construction et topographie",
+            "image": "/atelier-maconnerie.jpg"
+          }
+        ]
       },
       {
-        "title": "Château d'Eau Pédagogique",
-        "caption": "Infrastructure pour l'apprentissage de l'hydraulique",
-        "image": "/amasia-water-tower.jpg"
+        "name": "Arts & Culture",
+        "items": [
+          {
+            "title": "Club d'Arts",
+            "caption": "Expression créative à travers les arts visuels et fresques culturelles",
+            "image": "/Club-art-2.jpg"
+          },
+          {
+            "title": "Activités Culturelles",
+            "caption": "Danses traditionnelles et expressions culturelles",
+            "image": "/amasia-cultural-dance.jpg"
+          }
+        ]
       },
       {
-        "title": "Fresque des Arts",
-        "caption": "Espace d'expression artistique et créative",
-        "image": "/amasia-art-mural.jpg"
+        "name": "Sports & Réussites",
+        "items": [
+          {
+            "title": "Trophées Sportifs",
+            "caption": "Célébration de nos champions et leurs réalisations",
+            "image": "/les-trophees.JPG"
+          },
+          {
+            "title": "Excellence Bilingue",
+            "caption": "Élèves primés avec notre fondatrice",
+            "image": "/La-Fondatrice-et-2-laureats-de-la-journée-du-bilinguisme-2019.jpg"
+          }
+        ]
       },
       {
-        "title": "Palmarès Sportif",
-        "caption": "Célébration de nos champions et leurs trophées",
-        "image": "/amasia-sports-awards.jpg"
-      },
-      {
-        "title": "Laboratoire de Sciences",
-        "caption": "Équipement complet pour pratiques scientifiques",
-        "image": "/amasia-science-lab.jpg"
-      },
-      {
-        "title": "Arts & Culture",
-        "caption": "Danses traditionnelles et expressions culturelles",
-        "image": "/amasia-cultural-dance.jpg"
-      },
-      {
-        "title": "Atelier de Menuiserie",
-        "caption": "Formation pratique en travail du bois",
-        "image": "/amasia-carpentry-workshop.jpg"
-      },
-      {
-        "title": "Atelier Mécanique",
-        "caption": "Formation technique en mécanique automobile",
-        "image": "/amasia-mechanical-workshop.jpg"
-      },
-      {
-        "title": "Atelier de Couture",
-        "caption": "Formation professionnelle en couture et confection",
-        "image": "/amasia-sewing-workshop.jpg"
-      },
-      {
-        "title": "Salles Numériques",
-        "caption": "Classes équipées avec projecteurs et technologies modernes",
-        "image": "/amasia-digital-classroom.jpg"
-      },
-      {
-        "title": "Vidéosurveillance",
-        "caption": "Système de sécurité complet pour la protection de tous",
-        "image": "/amasia-security-surveillance.jpg"
+        "name": "Infrastructure & Services",
+        "items": [
+          {
+            "title": "Transport Scolaire",
+            "caption": "Flotte de bus scolaires pour le transport sécurisé des élèves",
+            "image": "/bus-scolaire.jpg"
+          },
+          {
+            "title": "Aire de Jeu",
+            "caption": "Espace de jeu sûr et coloré pour les loisirs",
+            "image": "/aire-de-jeu.jpg"
+          },
+          {
+            "title": "Château d'Eau",
+            "caption": "Château d'eau assurant l'approvisionnement permanent en eau",
+            "image": "/amasia-water-tower.jpg"
+          },
+          {
+            "title": "Système de Sécurité",
+            "caption": "Vidéosurveillance complète pour la protection de tous",
+            "image": "/amasia-security-surveillance.jpg"
+          }
+        ]
       }
     ]
   },

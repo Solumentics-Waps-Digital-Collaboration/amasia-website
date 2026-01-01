@@ -124,76 +124,112 @@
         "desc": "Rigorous supervision and personalized monitoring."
       },
       { "title": "Bilingual Series", "desc": "An integrated bilingual approach in our programs." },
-      { "title": "Satisfactory Results", "desc": "Consistent and satisfactory results in exams." },
-      { "title": "Digital Classrooms", "desc": "Equipped digital classrooms." },
-      { "title": "Small Class Sizes", "desc": "Reduced class sizes for better monitoring of each student." },
-      { "title": "Maximum Security", "desc": "Fully secured complex, fenced with video surveillance." },
-      { "title": "Conducive Environment", "desc": "A dynamic setting conducive to success." }
+      { "title": "Satisfactory Results", "desc": "Consistent and satisfactory results in exams." }
     ]
   },
   "facilities": {
     "title": "Our Facilities",
     "subtitle": "Modern infrastructure adapted to training",
-    "items": [
+    "categories": [
       {
-        "title": "Chess Club",
-        "caption": "Strategy and concentration development",
-        "image": "/amasia-chess-club.jpg"
+        "name": "Academic Facilities",
+        "items": [
+          {
+            "title": "Computer Laboratory",
+            "caption": "Over 120 computers with high-speed internet for digital learning",
+            "image": "/Salle-info.jpg"
+          },
+          {
+            "title": "Library",
+            "caption": "Well-stocked library with extensive reading resources",
+            "image": "/Bibliothèque.jpg"
+          },
+          {
+            "title": "Kindergarten Classroom",
+            "caption": "Colorful learning spaces for our youngest learners",
+            "image": "/Salle-de-lasse-maternelle.jpg"
+          }
+        ]
       },
       {
-        "title": "Hospitality Training Room",
-        "caption": "Professional training in culinary arts and service",
-        "image": "/amasia-cafeteria.jpg"
+        "name": "Technical Workshops",
+        "items": [
+          {
+            "title": "Carpentry Workshop",
+            "caption": "Practical training in woodworking and carpentry",
+            "image": "/amasia-carpentry-workshop.jpg"
+          },
+          {
+            "title": "Mechanical Workshop",
+            "caption": "Technical training in automotive mechanics",
+            "image": "/amasia-mechanical-workshop.jpg"
+          },
+          {
+            "title": "Sewing Workshop",
+            "caption": "Professional training in sewing and garment making",
+            "image": "/amasia-sewing-workshop.jpg"
+          },
+          {
+            "title": "Masonry Workshop",
+            "caption": "Hands-on training in construction and surveying",
+            "image": "/atelier-maconnerie.jpg"
+          }
+        ]
       },
       {
-        "title": "Pedagogical Water Tower",
-        "caption": "Infrastructure for hydraulics learning",
-        "image": "/amasia-water-tower.jpg"
+        "name": "Arts & Culture",
+        "items": [
+          {
+            "title": "Arts Club",
+            "caption": "Creative expression through visual arts and cultural murals",
+            "image": "/Club-art-2.jpg"
+          },
+          {
+            "title": "Cultural Activities",
+            "caption": "Traditional dances and cultural expressions",
+            "image": "/amasia-cultural-dance.jpg"
+          }
+        ]
       },
       {
-        "title": "Arts Wall Mural",
-        "caption": "Space for artistic and creative expression",
-        "image": "/amasia-art-mural.jpg"
+        "name": "Sports & Achievements",
+        "items": [
+          {
+            "title": "Sports Trophies",
+            "caption": "Celebrating our champions and their achievements",
+            "image": "/les-trophees.JPG"
+          },
+          {
+            "title": "Bilingual Excellence",
+            "caption": "Award-winning students with our founder",
+            "image": "/La-Fondatrice-et-2-laureats-de-la-journée-du-bilinguisme-2019.jpg"
+          }
+        ]
       },
       {
-        "title": "Sports Achievements",
-        "caption": "Celebrating our champions and their trophies",
-        "image": "/amasia-sports-awards.jpg"
-      },
-      {
-        "title": "Science Laboratory",
-        "caption": "Complete equipment for scientific practice",
-        "image": "/amasia-science-lab.jpg"
-      },
-      {
-        "title": "Arts & Culture",
-        "caption": "Traditional dances and cultural expressions",
-        "image": "/amasia-cultural-dance.jpg"
-      },
-      {
-        "title": "Carpentry Workshop",
-        "caption": "Practical training in woodworking",
-        "image": "/amasia-carpentry-workshop.jpg"
-      },
-      {
-        "title": "Mechanical Workshop",
-        "caption": "Technical training in automotive mechanics",
-        "image": "/amasia-mechanical-workshop.jpg"
-      },
-      {
-        "title": "Sewing Workshop",
-        "caption": "Professional training in sewing and garment making",
-        "image": "/amasia-sewing-workshop.jpg"
-      },
-      {
-        "title": "Digital Classrooms",
-        "caption": "Classes equipped with projectors and modern technology",
-        "image": "/amasia-digital-classroom.jpg"
-      },
-      {
-        "title": "Video Surveillance",
-        "caption": "Complete security system for everyone's protection",
-        "image": "/amasia-security-surveillance.jpg"
+        "name": "Infrastructure & Services",
+        "items": [
+          {
+            "title": "School Transport",
+            "caption": "Fleet of school buses for safe student transportation",
+            "image": "/bus-scolaire.jpg"
+          },
+          {
+            "title": "Playground",
+            "caption": "Safe and colorful play area for recreation",
+            "image": "/aire-de-jeu.jpg"
+          },
+          {
+            "title": "Water Supply",
+            "caption": "Water tower ensuring permanent water supply",
+            "image": "/amasia-water-tower.jpg"
+          },
+          {
+            "title": "Security System",
+            "caption": "Complete video surveillance for everyone's protection",
+            "image": "/amasia-security-surveillance.jpg"
+          }
+        ]
       }
     ]
   },

@@ -58,9 +58,9 @@ export function ProgramsSection({ dict }: ProgramsSectionProps) {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900">{program.data.title}</h3>
-                    <Badge variant="secondary" className="mt-1">
+                    {/* <Badge variant="secondary" className="mt-1">
                       {program.data.age}
-                    </Badge>
+                    </Badge> */}
                   </div>
                 </div>
               </CardHeader>
